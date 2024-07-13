@@ -10,3 +10,4 @@
         <navigator class="join" url="/pages/mypage/index">我的</navigator>
     </view>
 </view>
+<!--注：menu、plan、mypage和takeout页面我都还没进行编辑，只是单纯复制了index页面而已-->

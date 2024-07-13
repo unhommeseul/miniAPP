@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/goods-list/index",
-    "pages/examples/index",
-    "pages/user-center/index",
-    "pages/exampleDetail/index",
+    "pages/menu/index",
+    "pages/plan/index",
+    "pages/takeout/index",
+    "pages/mypage/index",   //这以上的路径都是编辑后的页面
     "pages/deployService/index",
     "pages/updateRecord/index",
     "pages/updateRecordResult/index",

@@ -1,0 +1,4 @@
+<view>
+    <form bindsubmit="submit"></form>
+</view>
+<!--注：menu、plan、mypage和takeout页面我都还没进行编辑，只是单纯复制了index页面而已-->
