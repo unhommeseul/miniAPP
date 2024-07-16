@@ -6,6 +6,7 @@ const updateRecord = require('./updateRecord/index');
 const sumRecord = require('./sumRecord/index');
 const fetchGoodsList = require('./fetchGoodsList/index');
 const genMpQrcode = require('./genMpQrcode/index');
+const userInformation = require("./userInformation.js");
 
 // 云函数入口函数
 exports.main = async (event, context) => {

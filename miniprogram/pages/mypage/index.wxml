@@ -1,13 +1,53 @@
-<view>
-    <view class="cover">
-    </view>
-    <view class="title">健康预制菜定制</view>
-    <view class="desc">生活再忙，也要善待自己！</view>
-    <view class="choose">
-        <navigator class="join" url="/pages/menu/index">营养菜单</navigator>
-        <navigator class="join" url="/pages/plan/index">健康方案</navigator>
-        <navigator class="join" url="/pages/takeout/index">预制菜外卖</navigator>
-        <navigator class="join" url="/pages/mypage/index">我的</navigator>
-    </view>
+<view class="body">
+    <form bindsubmit="submit">
+        <view class="section">
+           <view class="title">昵称：</view>
+           <input type="nickname" class="input"  placeholder="请输入昵称"/>
+         </view>
+        <view class="section">
+            <view class="title">性别：</view>
+            <radio-group class="mg" name="gender">
+                <label>
+                    <radio value="nan" />
+                    男
+                </label>
+                <label>
+                    <radio value="nv" />
+                    女
+                </label>
+            </radio-group>
+        </view>
+        <view class="section">
+            <view class="title">年龄：</view>
+            <picker class="input" mode="date" class="title" bindchange="dateChange" fields="month" value="{{date}}" name="date">
+                <view class="picker">出生年月：{{date}}</view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="title">地区：</view>
+            <picker mode="region" bindchange="regionchange" value="{{region}}" level="city" class="input" name="region">
+                <view class="picker">选择城市：{{region}}</view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="title">联系方式：</view>
+            <input class="input" name="code" placeholder="请输入手机号码" />
+        </view>
+        <view class="section">
+            <view class="title">身高（cm）：</view>
+            <input class="input" name="height" placeholder="请输入身高" />
+        </view>
+        <view class="section">
+            <view class="title">体重（kg）：</view>
+            <input class="input" name="weight" placeholder="请输入体重" />
+        </view>
+        <view class="section">
+            <view class="title">备注：（基础疾病信息、过敏信息、口味偏好、其他需求等）</view>
+            <textarea style="height: 100px" class="input" name="info" placeholder="填写备注信息" />
+        </view>
+        <view class="area">
+            <button style="margin:30rpx 0" type="primary" form-type="submit">提交信息</button>
+            <button style="margin:30rpx 0" form-type="reset">重置</button>
+        </view>
+    </form>
 </view>
-<!--注：menu、plan、mypage和takeout页面我都还没进行编辑，只是单纯复制了index页面而已-->

@@ -7,25 +7,31 @@
     "miniprogram": {
       "list": [
         {
-          "name": "首页-快速开始",
+          "name": "首页",
           "pathName": "pages/index/index",
           "query": ""
         },
         {
-          "name": "商品列表",
-          "pathName": "pages/goods-list/index",
+          "name": "营养菜单",
+          "pathName": "pages/menu/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "云开发示例",
-          "pathName": "pages/examples/index",
+          "name": "健康计划",
+          "pathName": "pages/plan/index",
           "query": "",
           "scene": null
         },
         {
           "name": "个人中心",
-          "pathName": "pages/user-center/index",
+          "pathName": "pages/mypage/index",
+          "query": "",
+          "scene": null
+        }
+        {
+          "name": "预制菜外卖",
+          "pathName": "pages/takeout/index",
           "query": "",
           "scene": null
         }
