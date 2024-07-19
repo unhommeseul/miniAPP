@@ -1,13 +1,32 @@
-<view>
-    <view class="cover">
-    </view>
-    <view class="title">健康预制菜定制</view>
-    <view class="desc">生活再忙，也要善待自己！</view>
-    <view class="choose">
-        <navigator class="join" url="/pages/menu/index">营养菜单</navigator>
-        <navigator class="join" url="/pages/plan/index">健康方案</navigator>
-        <navigator class="join" url="/pages/takeout/index">预制菜外卖</navigator>
-        <navigator class="join" url="/pages/mypage/index">我的</navigator>
-    </view>
+<view class="container">
+  <view class="title">一周健康计划</view>
+  <view class="input-group">
+    <view class="label">Day 1</view>
+    <input class="input" type="text" placeholder="请输入内容" bindinput="handleDay1Input" />
+  </view>
+  <view class="input-group">
+    <view class="label">Day 2</view>
+    <input class="input" type="text" placeholder="请输入内容" bindinput="handleDay2Input" />
+  </view>
+  <view class="input-group">
+    <view class="label">Day 3</view>
+    <input class="input" type="text" placeholder="请输入内容" bindinput="handleDay3Input" />
+  </view>
+    <view class="input-group">
+    <view class="label">Day 4</view>
+    <input class="input" type="text" placeholder="请输入内容" bindinput="handleDay4Input" />
+  </view>
+    <view class="input-group">
+    <view class="label">Day 5</view>
+    <input class="input" type="text" placeholder="请输入内容" bindinput="handleDay5Input" />
+  </view>
+    <view class="input-group">
+    <view class="label">Day 6</view>
+    <input class="input" type="text" placeholder="请输入内容" bindinput="handleDay6Input" />
+  </view>
+    <view class="input-group">
+    <view class="label">Day 7</view>
+    <input class="input" type="text" placeholder="请输入内容" bindinput="handleDay7Input" />
+  </view>
 </view>
-<!--注：menu、plan、mypage和takeout页面我都还没进行编辑，只是单纯复制了index页面而已-->
+<!--健康计划不上传数据库，保存在本地-->
