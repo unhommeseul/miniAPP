@@ -1,0 +1,19 @@
+{   "path" : "pages/menu/index",
+    "style" :
+    {
+          "navigationBarTitleText": "营养菜单",
+          "enablePullDownRefresh": false
+    }
+}
+
+"tabBar": {
+       "selectedColor": "#3CB371",
+       "list": [
+            {
+                 "pagePath": "pages/menu/index",
+                 "iconPath": "pages/icons/营养菜单.png",
+                 "selectedIconPath": "pages/icons/营养菜单-高亮.png",
+                 "text": "营养菜单"
+            }
+       ]
+}

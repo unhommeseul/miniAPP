@@ -1,10 +1,1 @@
-page({
-  data:{
-    hello:'hi'
-  },
-  change:function(){
-    this.setData({
-      hello:this.data.hello+"~~~",
-    })
-  }
-})
+import './pages/menu/index.wxss'
