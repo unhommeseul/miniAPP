@@ -17,3 +17,12 @@ App({
     this.globalData = {};
   }
 });
+  wx.openAppAuthorizeSetting({
+  success: (res) => {
+    console.log('权限设置页面打开成功，当前权限设置：', res.authSetting);
+    // 根据业务逻辑处理用户设置后的权限状态
+  },
+  fail: (err) => {
+    "console.error";
+  }
+});

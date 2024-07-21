@@ -4,14 +4,14 @@
     "pages/menu/index",
     "pages/plan/index",
     "pages/takeout/index",
-    "pages/mypage/index"  //这以上的路径都是编辑后的页面
+    "pages/mypage/index"  
 
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "标题",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
