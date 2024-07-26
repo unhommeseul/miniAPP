@@ -5,8 +5,8 @@
     <view class="desc">生活再忙，也要善待自己！</view>
     <view class="choose">
         <navigator class="join" url="/pages/menu/index">营养菜单</navigator>
-        <navigator class="join" url="/pages/plan/index">健康方案</navigator>
-        <navigator class="join" url="/pages/takeout/index">预制菜外卖</navigator>
-        <navigator class="join" url="/pages/mypage/index">我的</navigator>
+        <navigator class="join" url="/pages/plan/plan">一周健康方案</navigator>
+        <navigator class="join" url="/pages/takeout/takeout">预制菜外卖</navigator>
+        <navigator class="join" url="/pages/mypage/mypage">我的信息</navigator>
     </view>
 </view>

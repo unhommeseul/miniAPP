@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/menu/index",
-    "pages/plan/index",
-    "pages/takeout/index",
-    "pages/mypage/index"  
+
+    "pages/plan/plan",
+    "pages/takeout/takeout",
+    "pages/mypage/mypage"  
 
   ],
   "window": {
@@ -28,20 +28,22 @@
         "iconPath": "images/icons/home.png",
         "selectedIconPath": "images/icons/home-active.png"
       },
+
+
       {
-        "pagePath": "pages/menu/index",
-        "text": "营养菜单",
-        "iconPath": "images/icons/examples.png",
-        "selectedIconPath": "images/icons/examples-active.png"
-      },
-      {
-        "pagePath": "pages/plan/index",
+        "pagePath": "pages/plan/plan",
         "text": "一周健康计划",
         "iconPath": "images/icons/business.png",
         "selectedIconPath": "images/icons/business-active.png"
       },
       {
-        "pagePath": "pages/mypage/index",
+        "pagePath": "pages/takeout/takeout",
+        "text": "外卖配送",
+        "iconPath": "images/icons/goods.png",
+        "selectedIconPath": "images/icons/examples-active.png"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
         "text": "我的信息",
         "iconPath": "images/icons/usercenter.png",
         "selectedIconPath": "images/icons/usercenter-active.png"

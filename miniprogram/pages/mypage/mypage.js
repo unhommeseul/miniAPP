@@ -1,4 +1,4 @@
-page({
+Page({
   data:{
     date:"",
     region:"",
@@ -18,7 +18,22 @@ page({
         },
       })
       .then((res) =>{
-        console.log(res);
+        if (res.result.success) {
+          wx.redirectTo({
+            url:
+            "/pages/index/index",
+          });
+        }else {
+          wx.showModal({
+            title:"提示",
+            content:res.result.errorMessage,
+            success:function () {
+              wx.nevigateBack({
+                delta: 1,
+              });
+            },
+          });
+        }
       });
   },
   dateChange:function(e){
