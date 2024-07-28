@@ -1,0 +1,15 @@
+<view class="chat-container">
+  <view class="chat-header">
+    <text class="title">客服聊天</text>
+  </view>
+  <view class="chat-content">
+   
+    <view class="message" wx:for="{{messages}}" wx:key="index">
+      <text class="user-message">{{item.text}}</text>    //假设的聊天记录列表
+    </view>
+  </view>
+  <view class="chat-input">
+    <input type="text" placeholder="请输入您的问题" bindinput="onInput" />
+    <button bindtap="onSendMessage">发送</button>
+  </view>
+</view>

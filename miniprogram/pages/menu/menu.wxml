@@ -1,2 +1,19 @@
-<!--pages/menu/menu.wxml-->
-<text>pages/menu/menu.wxml</text>
+<view class="container">
+  <text class="title">定制你的个性菜单！</text>       
+  <swiper
+    class="swiper"
+    circular
+    autoplay
+    interval="3000"
+    indicator-dots
+  >
+    <swiper-item wx:for="{{images}}" wx:key="index">
+      <image src="{{item}}" mode="aspectFill" />
+    </swiper-item>
+  </swiper>           
+  
+  <view class="button-container">
+    <button class="button" bindtap="onAIAssistantTap">AI智能助手</button>
+    <button class="button" bindtap="onCustomerServiceTap">客服</button>    
+  </view>
+</view>

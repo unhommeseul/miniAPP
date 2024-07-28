@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-
+    "pages/menu/menu",
     "pages/plan/plan",
     "pages/takeout/takeout",
     "pages/mypage/mypage"  
@@ -29,7 +29,12 @@
         "selectedIconPath": "images/icons/home-active.png"
       },
 
-
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "营养菜单",
+        "iconPath": "pages/icons/营养菜单.png",
+        "selectedIconPath": "pages/icons/营养菜单-高光.png"
+      },      
       {
         "pagePath": "pages/plan/plan",
         "text": "一周健康计划",

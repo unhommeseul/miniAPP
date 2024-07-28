@@ -12,7 +12,7 @@ Page({
           type:"createGroup",
           data:{
             ...u,
-            age:new Date().getMonth,
+            age:new Date().getMonth(),
             region:this.data.region,
           },
         },
@@ -28,7 +28,7 @@ Page({
             title:"提示",
             content:res.result.errorMessage,
             success:function () {
-              wx.nevigateBack({
+              wx.navigateBack({
                 delta: 1,
               });
             },
